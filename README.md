@@ -36,6 +36,8 @@ example_bundle/
 
 Open the interactive graph view: **[example_bundle/viz.html](example_bundle/viz.html)**
 
+![OKF Visualization](okf_screenshot.png)
+
 Or generate your own:
 ```bash
 python3 -m reference_agent visualize --bundle example_bundle --out example_bundle/viz.html
@@ -52,3 +54,7 @@ python3 read_okf.py example_bundle
 - [OKF Specification](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md)
 - [Google Cloud Blog: Introducing OKF](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing)
 - [OKF v0.2 Trust Signals](https://cloud.google.com/blog/products/data-analytics/okf-v0-2-adds-trust-signals)
+
+---
+
+*Screenshot: Save your visualization as `okf_screenshot.png` in the repo root to display above.*
